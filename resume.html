@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📄Resume</title>
+    <style>
+        body{
+         font-family: "Inter" ,sans-serif;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+       }
+       main{ 
+        flex: 1;
+       }
+       footer{
+        padding: 10px;
+        text-align: center;
+       margin-top: auto;
+       }
+       header{
+        background-color: #0d6efd;
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+        margin: 0;
+        height: 15vh;
+       }
+       p{
+         margin-top: 0px;
+       }
+       .header-container{
+         display: flex;
+         flex-direction: column;
+         gap: 4px;
+         margin: 0;
+       }
+       .subtitle {
+        line-height: 1.7;
+        font-size: 1.05rem;
+       }
+       .resume-btn {
+  display: inline-block;
+  padding: 10px 20px;
+   margin: 10px;
+  background-color: #0313f9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: fit-content;
+}
+
+.resume-btn:hover {
+  background-color: #075cf0;
+}
+btn-container {
+display: flex;
+gap: 10px;
+}
+h2{
+        font-size: 1.35rem; 
+        margin-bottom: 10px;
+         color:#0d6efd;
+       }
+    </style>
+</head>
+<body>
+  <main>
+    <div class="header-container">
+    <header><h1 data-key="title">📄 Resume </h1>
+<p class="subtitle" data-key="subtitle"> View or download my resume.<br></p>   
+</header>
+<div class="btn-container">
+  <h2>👁️ View Resume</h2>
+  <a href="FINAL RESUME VIDULA.pdf" target="_blank" class="resume-btn">
+  <strong>📄View Resume</strong>
+</a>
+<br>
+<h2>📥 Download Resume</h2>
+    <a href="FINAL RESUME VIDULA.pdf" download class="resume-btn">
+  <strong>📄Download Resume</strong>
+</a>
+</div>
+  </main>
+    
+<footer>
+    <p data-key="footer">My Portfolio © 2026</p>
+  </footer>
+</body>
+</html>

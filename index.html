@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💼Portfolio Website</title>
+    <style>
+     
+       body{
+         font-family: "Inter" ,sans-serif;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+       }
+       main{ 
+        flex: 1;
+       }
+       footer{
+        padding: 10px;
+        text-align: center;
+       margin-top: auto;
+       }
+       header{
+        background-color: #0d6efd; 
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+        margin: 0;
+        height: 15vh;
+       }
+       p{
+         margin-top: 0px;
+       }
+       .header-container{
+         display: flex;
+         flex-direction: column;
+         gap: 4px;
+         margin: 0;
+       }
+       .intro-container{
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+        flex-direction: row;
+        gap: 40px;
+        margin: auto;
+        flex-wrap: wrap;
+        line-height:1.5;
+       }
+       .intro-box{
+        background: #e3f7ff;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        text-align: center;
+        transition: 0.3s;
+        width: 300px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       .intro-box h2{
+        color: #0054bb;
+        margin-bottom: 8px;
+       }
+       .intro-box p{
+        color: #444;
+        font-size: 1.05rem;
+        line-height: 1.5;
+       }
+       .intro-box:hover{
+        transform:translateY(-5px);
+        box-shadow: 0px 8px 18px rgba(0,0,0,0.12);
+       }
+       a{
+        text-decoration: none;
+       }
+       .subtitle {
+        line-height: 1.5;
+        font-size: 1.05rem;
+       }
+    </style>
+</head>
+<body>
+  <main>
+   <div class="header-container">
+    <header><h1 data-key="title">💼 My Portfolio 💼</h1>
+<p class="subtitle" data-key="subtitle"> “A showcase of my projects, skills, and learning path as an IT engineering student.”<br></p>   
+</header> 
+</div>
+<section id="features">
+  <div class="intro-container">
+  <a href="introduction.html"  class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 👋Introduction </h2>
+  <p class="subtitle" data-key="subtitle">Welcome to my portfolio where you can view my projects and skills.</p>
+</div>
+</a>
+   <a href="aboutme.html"  class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 👩‍💻About </h2>
+  <p class="subtitle" data-key="subtitle">Information on my background, education, and areas of interest.</p>
+</div></a>
+   <a href="skills.html"  class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 🛠️Technical Skills </h2>
+  <p class="subtitle" data-key="subtitle">Programming languages, technologies, and tools I am proficient in.</p>
+</div>
+</a>
+ <a href="projects.html" class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 📂Projects </h2>
+  <p class="subtitle" data-key="subtitle">Projects I have worked on to showcase my programming skills.</p>
+</div>
+</a>
+ <a href="resume.html"  class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 📄Resume </h2>
+  <p class="subtitle" data-key="subtitle">View or download my resume.</p>
+</div>
+</a>
+ <a href="contact.html" class="info-link">
+  <div class="intro-box">
+  <h2 data-key="title"> 📬Contact </h2>
+  <p class="subtitle" data-key="subtitle">Get in touch with me.</p>
+</div>
+</a>
+</div>
+</section>
+</main>
+<footer>
+    <p data-key="footer">My Portfolio © 2026</p>
+  </footer>
+</body>
+</html>

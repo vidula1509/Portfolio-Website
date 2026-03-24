@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💼Personal Portfolio Website</title>
+    <style>
+         body{
+         font-family: "Inter" ,sans-serif;
+        padding: 0;
+        margin: 0;
+        
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+       }
+       main{ 
+        flex: 1;
+       }
+       footer{
+        padding: 10px;
+        text-align: center;
+       margin-top: auto;
+       }
+       header{
+        background-color: #0d6efd;
+        color: white;
+        text-align: center;
+        padding: 30px 10px;
+        margin: 0;
+        height: 15vh;
+       }
+       p{
+         margin-top: 0px;
+       }
+       .header-container{
+         display: flex;
+         flex-direction: column;
+         gap: 4px;
+         margin: 0;
+         font-size: larger;
+       }
+         .subtitle {
+          line-height: 1.7;
+          font-size: 1.07rem;
+         }
+         section{
+          max-width: 800px;
+          margin:auto;
+          background: #fff;
+          padding: 20px;
+          text-align: left;
+          line-height: 1.7;
+          font-size: 1.05rem;
+         }
+         ul{
+        list-style: none;
+        padding-left: 0;
+       }
+       li{
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 12px;
+        line-height: 1.6;
+       }
+       li::before{
+        content:"👉";
+        position: absolute;
+        left: 0;
+        top: 0;
+       }
+       h2{
+        font-size: 1.35rem; 
+        margin-bottom: 10px;
+         color:#0d6efd;
+       }
+       .project-container {
+  max-width: 800px;   /* controls width like image 2 */
+  margin: 0 auto;     /* centers the whole block */
+  padding: 20px;
+  text-align: left;   /* keeps text left aligned */
+}
+.project-container h2 {
+  text-align: left;
+}
+
+.project-container p {
+  line-height: 1.6;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>💼 Personal Portfolio Website</h1>
+        <p>A responsive personal portfolio website designed to showcase projects, technical skills, and contact information in a clean and structured manner.</p>
+    </header>
+
+
+<section>
+    <div class="project-container">
+    <h2>Project Details</h2>    
+<strong>Technologies:</strong> <br> <ul><li><strong>HTML, CSS, JavaScript</strong></li></ul>
+
+
+<strong>Key Features:</strong>
+<ul>
+<li>Developed a <strong>fully responsive web design</strong> compatible with <strong>mobile and desktop devices</strong>, ensuring consistent user experience across screen sizes</li>
+<li>Created <strong>well-structured sections</strong> including <strong>About, Skills, Projects, and Contact</strong> for clear navigation and content organization</li>
+<li>Implemented an <strong>interactive user interface</strong> with <strong>hover effects, smooth scrolling, and intuitive navigation</strong> for enhanced usability</li>
+<li>Integrated a <strong>downloadable resume feature</strong> along with <strong>contact details</strong> to improve accessibility and user engagement</li>
+<li>Focused on <strong>clean layout design</strong> and modern UI principles to deliver a visually appealing interface</li>
+</ul>
+<strong>Role:</strong>
+
+<li>Designed and developed the complete <strong>frontend interface</strong> with strong emphasis on <strong>UI/UX design</strong> and <strong>responsiveness</strong></li>
+<li>Optimized layout and components for <strong>better performance</strong>, readability, and <strong>user interaction</strong></li>
+
+Status: Completed
+
+🔗 Live Demo | 💻 GitHub
+</div>
+<div class="video-container">
+  <video width="600" controls>
+    <source src="portfolio.mp4" type="video/mp4">
+  </video>
+</div>
+</section>
+</body>
+</html>
